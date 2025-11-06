@@ -1,0 +1,1 @@
+window.shapes_dkaze66lqb = function() { return {};}

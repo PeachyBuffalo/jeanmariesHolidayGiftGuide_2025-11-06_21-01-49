@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Marie's Holiday Gift Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        
+        .flipbook-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%;
+            height: 0;
+            overflow: hidden;
+            background: #f5f5f5;
+        }
+        
+        .flipbook-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            .flipbook-container {
+                padding-bottom: 100%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jean Marie's Holiday Gift Guide</h1>
+            <p>Browse our curated selection of holiday gifts</p>
+        </div>
+        <div class="flipbook-container">
+            <iframe 
+                src="jeanmariesHolidayGiftGuide_2025-11-06_21-01-49.html"
+                allowfullscreen
+                allow="autoplay; clipboard-read; clipboard-write"
+                scrolling="no"
+                frameborder="0"
+                title="Jean Marie's Holiday Gift Guide">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
+
